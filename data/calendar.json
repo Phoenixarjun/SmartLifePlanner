@@ -1,0 +1,198 @@
+{
+  "Monday": [
+    {
+      "title": "Simple Breakfast 1 (breakfast)",
+      "start_time": "08:00",
+      "duration_minutes": 30,
+      "day": "Monday",
+      "type": "meal"
+    },
+    {
+      "title": "Work Session",
+      "start_time": "09:00",
+      "duration_minutes": 90,
+      "day": "Monday",
+      "type": "task"
+    },
+    {
+      "title": "Veg Curry Bowl (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Monday",
+      "type": "meal"
+    },
+    {
+      "title": "Emails & Planning",
+      "start_time": "14:00",
+      "duration_minutes": 30,
+      "day": "Monday",
+      "type": "task"
+    },
+    {
+      "title": "Quinoa Salad (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Monday",
+      "type": "meal"
+    }
+  ],
+  "Tuesday": [
+    {
+      "title": "Workout",
+      "start_time": "09:00",
+      "duration_minutes": 30,
+      "day": "Tuesday",
+      "type": "task"
+    },
+    {
+      "title": "Oat Porridge (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Tuesday",
+      "type": "meal"
+    },
+    {
+      "title": "Lentil Soup (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Tuesday",
+      "type": "meal"
+    }
+  ],
+  "Wednesday": [
+    {
+      "title": "Simple Breakfast 3 (breakfast)",
+      "start_time": "08:00",
+      "duration_minutes": 30,
+      "day": "Wednesday",
+      "type": "meal"
+    },
+    {
+      "title": "Paneer Stir-Fry (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Wednesday",
+      "type": "meal"
+    },
+    {
+      "title": "Stretch",
+      "start_time": "18:00",
+      "duration_minutes": 10,
+      "day": "Wednesday",
+      "type": "task"
+    },
+    {
+      "title": "Veg Curry Bowl (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Wednesday",
+      "type": "meal"
+    }
+  ],
+  "Thursday": [
+    {
+      "title": "Work Session",
+      "start_time": "09:00",
+      "duration_minutes": 90,
+      "day": "Thursday",
+      "type": "task"
+    },
+    {
+      "title": "Quinoa Salad (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Thursday",
+      "type": "meal"
+    },
+    {
+      "title": "Oat Porridge (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Thursday",
+      "type": "meal"
+    }
+  ],
+  "Friday": [
+    {
+      "title": "Simple Breakfast 5 (breakfast)",
+      "start_time": "08:00",
+      "duration_minutes": 30,
+      "day": "Friday",
+      "type": "meal"
+    },
+    {
+      "title": "Lentil Soup (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Friday",
+      "type": "meal"
+    },
+    {
+      "title": "Emails & Planning",
+      "start_time": "14:00",
+      "duration_minutes": 30,
+      "day": "Friday",
+      "type": "task"
+    },
+    {
+      "title": "Paneer Stir-Fry (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Friday",
+      "type": "meal"
+    }
+  ],
+  "Saturday": [
+    {
+      "title": "Workout",
+      "start_time": "09:00",
+      "duration_minutes": 30,
+      "day": "Saturday",
+      "type": "task"
+    },
+    {
+      "title": "Veg Curry Bowl (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Saturday",
+      "type": "meal"
+    },
+    {
+      "title": "Quinoa Salad (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Saturday",
+      "type": "meal"
+    }
+  ],
+  "Sunday": [
+    {
+      "title": "Simple Breakfast 7 (breakfast)",
+      "start_time": "08:00",
+      "duration_minutes": 30,
+      "day": "Sunday",
+      "type": "meal"
+    },
+    {
+      "title": "Oat Porridge (lunch)",
+      "start_time": "12:30",
+      "duration_minutes": 30,
+      "day": "Sunday",
+      "type": "meal"
+    },
+    {
+      "title": "Stretch",
+      "start_time": "18:00",
+      "duration_minutes": 10,
+      "day": "Sunday",
+      "type": "task"
+    },
+    {
+      "title": "Lentil Soup (dinner)",
+      "start_time": "19:00",
+      "duration_minutes": 30,
+      "day": "Sunday",
+      "type": "meal"
+    }
+  ]
+}

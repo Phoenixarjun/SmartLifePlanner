@@ -207,6 +207,107 @@
         "exercise"
       ],
       "plan_score": 66.67
+    },
+    {
+      "session_id": "2d423412-c4f8-4d93-ae39-cbbea1d71be2",
+      "goals": [
+        "work",
+        "meals",
+        "exercise"
+      ],
+      "plan_score": 66.67
+    },
+    {
+      "session_id": "effcd2f8-195a-41ed-9f47-ba9ce05ad0f3",
+      "goals": [
+        "work",
+        "meals",
+        "exercise",
+        "shopping",
+        "tasks"
+      ],
+      "plan_score": 60.0
+    },
+    {
+      "session_id": "7eaa5ebd-c641-4205-986f-73b0e1c33f2b",
+      "goals": [
+        "meals",
+        "exercise",
+        "shopping"
+      ],
+      "plan_score": 48.66
+    },
+    {
+      "session_id": "37871575-ea06-41a1-a9be-82c197ea7a9f",
+      "goals": [
+        "meals",
+        "exercise",
+        "shopping"
+      ],
+      "plan_score": 48.66
+    },
+    {
+      "session_id": "89edf91d-1c53-4944-a9cd-3229ddbc72aa",
+      "goals": [
+        "meals",
+        "exercise",
+        "shopping"
+      ],
+      "plan_score": 48.66
+    },
+    {
+      "session_id": "12251f26-9587-457f-ac20-c4cf2ff1cb11",
+      "goals": [
+        "meals",
+        "exercise",
+        "shopping"
+      ],
+      "plan_score": 48.66
+    },
+    {
+      "session_id": "af3663c8-29d9-4abe-a595-2387cfafd442",
+      "goals": [
+        "meals",
+        "exercise",
+        "shopping"
+      ],
+      "plan_score": 48.66
+    },
+    {
+      "session_id": "366ed635-28db-49fd-96d3-70905acf38a8",
+      "goals": [
+        "work",
+        "meals",
+        "exercise"
+      ],
+      "plan_score": 65.33
+    },
+    {
+      "session_id": "ccd5fdfe-d1bd-4a5f-9269-fab34998904e",
+      "goals": [
+        "work",
+        "meals",
+        "exercise"
+      ],
+      "plan_score": 65.33
+    },
+    {
+      "session_id": "54c7bdd0-e782-4f0c-9e57-40ffb17baeb6",
+      "goals": [
+        "work",
+        "meals",
+        "exercise"
+      ],
+      "plan_score": 65.33
+    },
+    {
+      "session_id": "83f2a1f8-0c2a-4ca8-977e-117f74663866",
+      "goals": [
+        "work",
+        "meals",
+        "exercise"
+      ],
+      "plan_score": 65.33
     }
   ],
   "patterns": {}
