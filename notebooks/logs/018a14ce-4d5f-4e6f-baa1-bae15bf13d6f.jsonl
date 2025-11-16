@@ -1,0 +1,7 @@
+{"timestamp": "2025-11-16T14:24:12.592687", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "Orchestrator", "step": "pipeline_started", "data": {"user_text": "Plan my week: vegetarian meals, budget $100, 3 workouts."}}
+{"timestamp": "2025-11-16T14:24:12.593366", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "IntentAgent", "step": "start", "data": {"input": "Plan my week: vegetarian meals, budget $100, 3 workouts."}}
+{"timestamp": "2025-11-16T14:24:13.849345", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "IntentAgent", "step": "parsed", "data": {"goals": ["vegetarian meals", "3 workouts"], "constraints": {"max_budget": "100", "dietary": "vegetarian"}, "priorities": ["health", "budget"], "plan_duration_days": 7, "user_preferences": {}}}
+{"timestamp": "2025-11-16T14:24:13.850509", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "TaskAgent", "step": "start", "data": {"goals": ["vegetarian meals", "3 workouts"]}}
+{"timestamp": "2025-11-16T14:24:13.850956", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "MealAgent", "step": "start", "data": {"goals": ["vegetarian meals", "3 workouts"]}}
+{"timestamp": "2025-11-16T14:24:21.489889", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "MealAgent", "step": "proposed", "data": {"days": 1}}
+{"timestamp": "2025-11-16T14:24:21.490625", "session_id": "018a14ce-4d5f-4e6f-baa1-bae15bf13d6f", "agent": "Orchestrator", "step": "pipeline_error", "data": {"error": "name 'plan_days' is not defined"}}

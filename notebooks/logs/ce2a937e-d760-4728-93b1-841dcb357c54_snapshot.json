@@ -1,0 +1,1387 @@
+{
+  "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+  "user_input": "Plan my week: vegetarian meals, budget $100, 3 workouts.",
+  "intent": {
+    "goals": [
+      "vegetarian meals",
+      "3 workouts"
+    ],
+    "constraints": {
+      "max_budget": "100",
+      "dietary": "vegetarian"
+    },
+    "priorities": [
+      "health",
+      "budget"
+    ],
+    "plan_duration_days": 7,
+    "user_preferences": {}
+  },
+  "proposals": {
+    "task": {
+      "agent": "TaskAgent",
+      "tasks": []
+    },
+    "meal": {
+      "agent": "MealAgent",
+      "meal_plan": [
+        {
+          "day": "Monday",
+          "meals": [
+            {
+              "day": "Monday",
+              "type": "breakfast",
+              "name": "Grilled Chicken Salad",
+              "recipe_id": "r1",
+              "calories": 350,
+              "ingredients": [
+                "chicken breast",
+                "lettuce",
+                "tomato",
+                "cucumber"
+              ]
+            },
+            {
+              "day": "Monday",
+              "type": "lunch",
+              "name": "Grilled Chicken Salad",
+              "recipe_id": "r1",
+              "calories": 350,
+              "ingredients": [
+                "chicken breast",
+                "lettuce",
+                "tomato",
+                "cucumber"
+              ]
+            },
+            {
+              "day": "Monday",
+              "type": "dinner",
+              "name": "Grilled Chicken Salad",
+              "recipe_id": "r1",
+              "calories": 350,
+              "ingredients": [
+                "chicken breast",
+                "lettuce",
+                "tomato",
+                "cucumber"
+              ]
+            }
+          ],
+          "total_calories": 1050
+        },
+        {
+          "day": "Tuesday",
+          "meals": [
+            {
+              "day": "Tuesday",
+              "type": "breakfast",
+              "name": "Vegetarian Pasta",
+              "recipe_id": "r2",
+              "calories": 450,
+              "ingredients": [
+                "pasta",
+                "tomato sauce",
+                "cheese",
+                "basil"
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "type": "lunch",
+              "name": "Vegetarian Pasta",
+              "recipe_id": "r2",
+              "calories": 450,
+              "ingredients": [
+                "pasta",
+                "tomato sauce",
+                "cheese",
+                "basil"
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "type": "dinner",
+              "name": "Vegetarian Pasta",
+              "recipe_id": "r2",
+              "calories": 450,
+              "ingredients": [
+                "pasta",
+                "tomato sauce",
+                "cheese",
+                "basil"
+              ]
+            }
+          ],
+          "total_calories": 1350
+        },
+        {
+          "day": "Wednesday",
+          "meals": [
+            {
+              "day": "Wednesday",
+              "type": "breakfast",
+              "name": "Quinoa Bowl",
+              "recipe_id": "r3",
+              "calories": 380,
+              "ingredients": [
+                "quinoa",
+                "black beans",
+                "avocado",
+                "corn"
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "type": "lunch",
+              "name": "Quinoa Bowl",
+              "recipe_id": "r3",
+              "calories": 380,
+              "ingredients": [
+                "quinoa",
+                "black beans",
+                "avocado",
+                "corn"
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "type": "dinner",
+              "name": "Quinoa Bowl",
+              "recipe_id": "r3",
+              "calories": 380,
+              "ingredients": [
+                "quinoa",
+                "black beans",
+                "avocado",
+                "corn"
+              ]
+            }
+          ],
+          "total_calories": 1140
+        },
+        {
+          "day": "Thursday",
+          "meals": [
+            {
+              "day": "Thursday",
+              "type": "breakfast",
+              "name": "Greek Yogurt Parfait",
+              "recipe_id": "r4",
+              "calories": 250,
+              "ingredients": [
+                "greek yogurt",
+                "berries",
+                "granola",
+                "honey"
+              ]
+            },
+            {
+              "day": "Thursday",
+              "type": "lunch",
+              "name": "Greek Yogurt Parfait",
+              "recipe_id": "r4",
+              "calories": 250,
+              "ingredients": [
+                "greek yogurt",
+                "berries",
+                "granola",
+                "honey"
+              ]
+            },
+            {
+              "day": "Thursday",
+              "type": "dinner",
+              "name": "Greek Yogurt Parfait",
+              "recipe_id": "r4",
+              "calories": 250,
+              "ingredients": [
+                "greek yogurt",
+                "berries",
+                "granola",
+                "honey"
+              ]
+            }
+          ],
+          "total_calories": 750
+        },
+        {
+          "day": "Friday",
+          "meals": [
+            {
+              "day": "Friday",
+              "type": "breakfast",
+              "name": "Salmon with Vegetables",
+              "recipe_id": "r5",
+              "calories": 400,
+              "ingredients": [
+                "salmon",
+                "broccoli",
+                "carrots",
+                "lemon"
+              ]
+            },
+            {
+              "day": "Friday",
+              "type": "lunch",
+              "name": "Salmon with Vegetables",
+              "recipe_id": "r5",
+              "calories": 400,
+              "ingredients": [
+                "salmon",
+                "broccoli",
+                "carrots",
+                "lemon"
+              ]
+            },
+            {
+              "day": "Friday",
+              "type": "dinner",
+              "name": "Salmon with Vegetables",
+              "recipe_id": "r5",
+              "calories": 400,
+              "ingredients": [
+                "salmon",
+                "broccoli",
+                "carrots",
+                "lemon"
+              ]
+            }
+          ],
+          "total_calories": 1200
+        },
+        {
+          "day": "Saturday",
+          "meals": [
+            {
+              "day": "Saturday",
+              "type": "breakfast",
+              "name": "Grilled Chicken Salad",
+              "recipe_id": "r1",
+              "calories": 350,
+              "ingredients": [
+                "chicken breast",
+                "lettuce",
+                "tomato",
+                "cucumber"
+              ]
+            },
+            {
+              "day": "Saturday",
+              "type": "lunch",
+              "name": "Grilled Chicken Salad",
+              "recipe_id": "r1",
+              "calories": 350,
+              "ingredients": [
+                "chicken breast",
+                "lettuce",
+                "tomato",
+                "cucumber"
+              ]
+            },
+            {
+              "day": "Saturday",
+              "type": "dinner",
+              "name": "Grilled Chicken Salad",
+              "recipe_id": "r1",
+              "calories": 350,
+              "ingredients": [
+                "chicken breast",
+                "lettuce",
+                "tomato",
+                "cucumber"
+              ]
+            }
+          ],
+          "total_calories": 1050
+        },
+        {
+          "day": "Sunday",
+          "meals": [
+            {
+              "day": "Sunday",
+              "type": "breakfast",
+              "name": "Vegetarian Pasta",
+              "recipe_id": "r2",
+              "calories": 450,
+              "ingredients": [
+                "pasta",
+                "tomato sauce",
+                "cheese",
+                "basil"
+              ]
+            },
+            {
+              "day": "Sunday",
+              "type": "lunch",
+              "name": "Vegetarian Pasta",
+              "recipe_id": "r2",
+              "calories": 450,
+              "ingredients": [
+                "pasta",
+                "tomato sauce",
+                "cheese",
+                "basil"
+              ]
+            },
+            {
+              "day": "Sunday",
+              "type": "dinner",
+              "name": "Vegetarian Pasta",
+              "recipe_id": "r2",
+              "calories": 450,
+              "ingredients": [
+                "pasta",
+                "tomato sauce",
+                "cheese",
+                "basil"
+              ]
+            }
+          ],
+          "total_calories": 1350
+        }
+      ]
+    },
+    "budget": {
+      "agent": "BudgetAgent",
+      "budget": {
+        "shopping_list": [
+          "chicken breast",
+          "lettuce",
+          "tomato",
+          "cucumber",
+          "pasta",
+          "tomato sauce",
+          "cheese",
+          "basil",
+          "quinoa",
+          "black beans",
+          "avocado",
+          "corn",
+          "greek yogurt",
+          "berries",
+          "granola",
+          "honey",
+          "salmon",
+          "broccoli",
+          "carrots",
+          "lemon"
+        ],
+        "item_prices": {
+          "chicken breast": 8.99,
+          "lettuce": 2.49,
+          "tomato": 3.99,
+          "cucumber": 1.99,
+          "pasta": 2.99,
+          "tomato sauce": 2.49,
+          "cheese": 4.99,
+          "basil": 2.99,
+          "quinoa": 5.99,
+          "black beans": 2.49,
+          "avocado": 2.99,
+          "corn": 1.99,
+          "greek yogurt": 4.99,
+          "berries": 4.99,
+          "granola": 5.99,
+          "honey": 2.0,
+          "salmon": 12.99,
+          "broccoli": 2.99,
+          "carrots": 1.99,
+          "lemon": 1.49
+        },
+        "total": 81.81,
+        "within_budget": true
+      }
+    }
+  },
+  "schedule": {
+    "agent": "SchedulerAgent",
+    "schedule": {
+      "schedule": {
+        "Monday": [
+          {
+            "id": "b6c1705c-8ee9-4b87-bb29-9e6124ab75ce",
+            "title": "Grilled Chicken Salad (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Monday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580851"
+          },
+          {
+            "id": "6ab0a871-e00e-4629-904e-4a3df623a3c7",
+            "title": "Grilled Chicken Salad (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Monday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580868"
+          },
+          {
+            "id": "704ece47-63f2-41bf-a7b4-ae4119a09a91",
+            "title": "Grilled Chicken Salad (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Monday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580878"
+          }
+        ],
+        "Tuesday": [
+          {
+            "id": "e708bbe7-d02f-40bf-8a76-77e1173812f0",
+            "title": "Vegetarian Pasta (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Tuesday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580887"
+          },
+          {
+            "id": "dfa87642-d262-42f2-9c54-15728343fcc2",
+            "title": "Vegetarian Pasta (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Tuesday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580895"
+          },
+          {
+            "id": "cdb8ffc1-a870-497b-80df-fbd47d484e3b",
+            "title": "Vegetarian Pasta (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Tuesday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580905"
+          }
+        ],
+        "Wednesday": [
+          {
+            "id": "2b87fab6-da9e-4eb4-8d01-a6a866b6d265",
+            "title": "Quinoa Bowl (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Wednesday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580913"
+          },
+          {
+            "id": "84a07f5e-c7e6-43f3-97bd-74db1c691db2",
+            "title": "Quinoa Bowl (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Wednesday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580921"
+          },
+          {
+            "id": "21556278-c413-40b1-94f7-54e5d445259e",
+            "title": "Quinoa Bowl (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Wednesday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580931"
+          }
+        ],
+        "Thursday": [
+          {
+            "id": "c1d84af3-4571-4631-b667-69098bbd56d8",
+            "title": "Greek Yogurt Parfait (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Thursday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580939"
+          },
+          {
+            "id": "5b2cccf8-0e70-42ce-a0cd-13098686c23d",
+            "title": "Greek Yogurt Parfait (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Thursday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580948"
+          },
+          {
+            "id": "ac1e0544-4bdd-4910-8674-d6633d54fa24",
+            "title": "Greek Yogurt Parfait (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Thursday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580957"
+          }
+        ],
+        "Friday": [
+          {
+            "id": "0190bb42-2eee-493c-a515-bcad9d86da59",
+            "title": "Salmon with Vegetables (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Friday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580965"
+          },
+          {
+            "id": "221f283a-b1af-40dc-8b83-b420c151abc6",
+            "title": "Salmon with Vegetables (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Friday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580974"
+          },
+          {
+            "id": "39c8c335-1902-4cd7-86db-b03fc61c19e5",
+            "title": "Salmon with Vegetables (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Friday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580984"
+          }
+        ],
+        "Saturday": [
+          {
+            "id": "efe002aa-093a-4b44-b7f9-f58e722e0fa1",
+            "title": "Grilled Chicken Salad (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Saturday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.580992"
+          },
+          {
+            "id": "a99fe1c6-f5be-4ac9-bf47-d165c0202af0",
+            "title": "Grilled Chicken Salad (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Saturday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.581001"
+          },
+          {
+            "id": "42feec9e-4489-4a2b-83dc-8d241bf01d77",
+            "title": "Grilled Chicken Salad (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Saturday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.581010"
+          }
+        ],
+        "Sunday": [
+          {
+            "id": "94d0d141-10b7-41e9-b5a3-805025677a97",
+            "title": "Vegetarian Pasta (breakfast)",
+            "start_time": "08:00",
+            "duration_minutes": 30,
+            "day": "Sunday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.581018"
+          },
+          {
+            "id": "2d5efafb-feb1-4800-b97d-59f6439d40c1",
+            "title": "Vegetarian Pasta (lunch)",
+            "start_time": "12:30",
+            "duration_minutes": 30,
+            "day": "Sunday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.581027"
+          },
+          {
+            "id": "3dae0f8b-23bd-43c5-8ce7-52bf923b5870",
+            "title": "Vegetarian Pasta (dinner)",
+            "start_time": "19:00",
+            "duration_minutes": 30,
+            "day": "Sunday",
+            "type": "meal",
+            "created_at": "2025-11-16T14:18:28.581036"
+          }
+        ]
+      },
+      "conflicts_resolved": 0,
+      "total_events": 21
+    }
+  },
+  "plan": {
+    "goals": [
+      "vegetarian meals",
+      "3 workouts"
+    ],
+    "constraints": {
+      "max_budget": "100",
+      "dietary": "vegetarian"
+    },
+    "tasks": [],
+    "meals": [
+      {
+        "day": "Monday",
+        "meals": [
+          {
+            "day": "Monday",
+            "type": "breakfast",
+            "name": "Grilled Chicken Salad",
+            "recipe_id": "r1",
+            "calories": 350,
+            "ingredients": [
+              "chicken breast",
+              "lettuce",
+              "tomato",
+              "cucumber"
+            ]
+          },
+          {
+            "day": "Monday",
+            "type": "lunch",
+            "name": "Grilled Chicken Salad",
+            "recipe_id": "r1",
+            "calories": 350,
+            "ingredients": [
+              "chicken breast",
+              "lettuce",
+              "tomato",
+              "cucumber"
+            ]
+          },
+          {
+            "day": "Monday",
+            "type": "dinner",
+            "name": "Grilled Chicken Salad",
+            "recipe_id": "r1",
+            "calories": 350,
+            "ingredients": [
+              "chicken breast",
+              "lettuce",
+              "tomato",
+              "cucumber"
+            ]
+          }
+        ],
+        "total_calories": 1050
+      },
+      {
+        "day": "Tuesday",
+        "meals": [
+          {
+            "day": "Tuesday",
+            "type": "breakfast",
+            "name": "Vegetarian Pasta",
+            "recipe_id": "r2",
+            "calories": 450,
+            "ingredients": [
+              "pasta",
+              "tomato sauce",
+              "cheese",
+              "basil"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "type": "lunch",
+            "name": "Vegetarian Pasta",
+            "recipe_id": "r2",
+            "calories": 450,
+            "ingredients": [
+              "pasta",
+              "tomato sauce",
+              "cheese",
+              "basil"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "type": "dinner",
+            "name": "Vegetarian Pasta",
+            "recipe_id": "r2",
+            "calories": 450,
+            "ingredients": [
+              "pasta",
+              "tomato sauce",
+              "cheese",
+              "basil"
+            ]
+          }
+        ],
+        "total_calories": 1350
+      },
+      {
+        "day": "Wednesday",
+        "meals": [
+          {
+            "day": "Wednesday",
+            "type": "breakfast",
+            "name": "Quinoa Bowl",
+            "recipe_id": "r3",
+            "calories": 380,
+            "ingredients": [
+              "quinoa",
+              "black beans",
+              "avocado",
+              "corn"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "type": "lunch",
+            "name": "Quinoa Bowl",
+            "recipe_id": "r3",
+            "calories": 380,
+            "ingredients": [
+              "quinoa",
+              "black beans",
+              "avocado",
+              "corn"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "type": "dinner",
+            "name": "Quinoa Bowl",
+            "recipe_id": "r3",
+            "calories": 380,
+            "ingredients": [
+              "quinoa",
+              "black beans",
+              "avocado",
+              "corn"
+            ]
+          }
+        ],
+        "total_calories": 1140
+      },
+      {
+        "day": "Thursday",
+        "meals": [
+          {
+            "day": "Thursday",
+            "type": "breakfast",
+            "name": "Greek Yogurt Parfait",
+            "recipe_id": "r4",
+            "calories": 250,
+            "ingredients": [
+              "greek yogurt",
+              "berries",
+              "granola",
+              "honey"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "type": "lunch",
+            "name": "Greek Yogurt Parfait",
+            "recipe_id": "r4",
+            "calories": 250,
+            "ingredients": [
+              "greek yogurt",
+              "berries",
+              "granola",
+              "honey"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "type": "dinner",
+            "name": "Greek Yogurt Parfait",
+            "recipe_id": "r4",
+            "calories": 250,
+            "ingredients": [
+              "greek yogurt",
+              "berries",
+              "granola",
+              "honey"
+            ]
+          }
+        ],
+        "total_calories": 750
+      },
+      {
+        "day": "Friday",
+        "meals": [
+          {
+            "day": "Friday",
+            "type": "breakfast",
+            "name": "Salmon with Vegetables",
+            "recipe_id": "r5",
+            "calories": 400,
+            "ingredients": [
+              "salmon",
+              "broccoli",
+              "carrots",
+              "lemon"
+            ]
+          },
+          {
+            "day": "Friday",
+            "type": "lunch",
+            "name": "Salmon with Vegetables",
+            "recipe_id": "r5",
+            "calories": 400,
+            "ingredients": [
+              "salmon",
+              "broccoli",
+              "carrots",
+              "lemon"
+            ]
+          },
+          {
+            "day": "Friday",
+            "type": "dinner",
+            "name": "Salmon with Vegetables",
+            "recipe_id": "r5",
+            "calories": 400,
+            "ingredients": [
+              "salmon",
+              "broccoli",
+              "carrots",
+              "lemon"
+            ]
+          }
+        ],
+        "total_calories": 1200
+      },
+      {
+        "day": "Saturday",
+        "meals": [
+          {
+            "day": "Saturday",
+            "type": "breakfast",
+            "name": "Grilled Chicken Salad",
+            "recipe_id": "r1",
+            "calories": 350,
+            "ingredients": [
+              "chicken breast",
+              "lettuce",
+              "tomato",
+              "cucumber"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "type": "lunch",
+            "name": "Grilled Chicken Salad",
+            "recipe_id": "r1",
+            "calories": 350,
+            "ingredients": [
+              "chicken breast",
+              "lettuce",
+              "tomato",
+              "cucumber"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "type": "dinner",
+            "name": "Grilled Chicken Salad",
+            "recipe_id": "r1",
+            "calories": 350,
+            "ingredients": [
+              "chicken breast",
+              "lettuce",
+              "tomato",
+              "cucumber"
+            ]
+          }
+        ],
+        "total_calories": 1050
+      },
+      {
+        "day": "Sunday",
+        "meals": [
+          {
+            "day": "Sunday",
+            "type": "breakfast",
+            "name": "Vegetarian Pasta",
+            "recipe_id": "r2",
+            "calories": 450,
+            "ingredients": [
+              "pasta",
+              "tomato sauce",
+              "cheese",
+              "basil"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "type": "lunch",
+            "name": "Vegetarian Pasta",
+            "recipe_id": "r2",
+            "calories": 450,
+            "ingredients": [
+              "pasta",
+              "tomato sauce",
+              "cheese",
+              "basil"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "type": "dinner",
+            "name": "Vegetarian Pasta",
+            "recipe_id": "r2",
+            "calories": 450,
+            "ingredients": [
+              "pasta",
+              "tomato sauce",
+              "cheese",
+              "basil"
+            ]
+          }
+        ],
+        "total_calories": 1350
+      }
+    ],
+    "budget": {
+      "shopping_list": [
+        "chicken breast",
+        "lettuce",
+        "tomato",
+        "cucumber",
+        "pasta",
+        "tomato sauce",
+        "cheese",
+        "basil",
+        "quinoa",
+        "black beans",
+        "avocado",
+        "corn",
+        "greek yogurt",
+        "berries",
+        "granola",
+        "honey",
+        "salmon",
+        "broccoli",
+        "carrots",
+        "lemon"
+      ],
+      "item_prices": {
+        "chicken breast": 8.99,
+        "lettuce": 2.49,
+        "tomato": 3.99,
+        "cucumber": 1.99,
+        "pasta": 2.99,
+        "tomato sauce": 2.49,
+        "cheese": 4.99,
+        "basil": 2.99,
+        "quinoa": 5.99,
+        "black beans": 2.49,
+        "avocado": 2.99,
+        "corn": 1.99,
+        "greek yogurt": 4.99,
+        "berries": 4.99,
+        "granola": 5.99,
+        "honey": 2.0,
+        "salmon": 12.99,
+        "broccoli": 2.99,
+        "carrots": 1.99,
+        "lemon": 1.49
+      },
+      "total": 81.81,
+      "within_budget": true
+    },
+    "schedule": {
+      "Monday": [
+        {
+          "id": "b6c1705c-8ee9-4b87-bb29-9e6124ab75ce",
+          "title": "Grilled Chicken Salad (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Monday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580851"
+        },
+        {
+          "id": "6ab0a871-e00e-4629-904e-4a3df623a3c7",
+          "title": "Grilled Chicken Salad (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Monday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580868"
+        },
+        {
+          "id": "704ece47-63f2-41bf-a7b4-ae4119a09a91",
+          "title": "Grilled Chicken Salad (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Monday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580878"
+        }
+      ],
+      "Tuesday": [
+        {
+          "id": "e708bbe7-d02f-40bf-8a76-77e1173812f0",
+          "title": "Vegetarian Pasta (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Tuesday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580887"
+        },
+        {
+          "id": "dfa87642-d262-42f2-9c54-15728343fcc2",
+          "title": "Vegetarian Pasta (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Tuesday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580895"
+        },
+        {
+          "id": "cdb8ffc1-a870-497b-80df-fbd47d484e3b",
+          "title": "Vegetarian Pasta (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Tuesday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580905"
+        }
+      ],
+      "Wednesday": [
+        {
+          "id": "2b87fab6-da9e-4eb4-8d01-a6a866b6d265",
+          "title": "Quinoa Bowl (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Wednesday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580913"
+        },
+        {
+          "id": "84a07f5e-c7e6-43f3-97bd-74db1c691db2",
+          "title": "Quinoa Bowl (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Wednesday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580921"
+        },
+        {
+          "id": "21556278-c413-40b1-94f7-54e5d445259e",
+          "title": "Quinoa Bowl (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Wednesday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580931"
+        }
+      ],
+      "Thursday": [
+        {
+          "id": "c1d84af3-4571-4631-b667-69098bbd56d8",
+          "title": "Greek Yogurt Parfait (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Thursday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580939"
+        },
+        {
+          "id": "5b2cccf8-0e70-42ce-a0cd-13098686c23d",
+          "title": "Greek Yogurt Parfait (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Thursday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580948"
+        },
+        {
+          "id": "ac1e0544-4bdd-4910-8674-d6633d54fa24",
+          "title": "Greek Yogurt Parfait (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Thursday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580957"
+        }
+      ],
+      "Friday": [
+        {
+          "id": "0190bb42-2eee-493c-a515-bcad9d86da59",
+          "title": "Salmon with Vegetables (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Friday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580965"
+        },
+        {
+          "id": "221f283a-b1af-40dc-8b83-b420c151abc6",
+          "title": "Salmon with Vegetables (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Friday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580974"
+        },
+        {
+          "id": "39c8c335-1902-4cd7-86db-b03fc61c19e5",
+          "title": "Salmon with Vegetables (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Friday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580984"
+        }
+      ],
+      "Saturday": [
+        {
+          "id": "efe002aa-093a-4b44-b7f9-f58e722e0fa1",
+          "title": "Grilled Chicken Salad (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Saturday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.580992"
+        },
+        {
+          "id": "a99fe1c6-f5be-4ac9-bf47-d165c0202af0",
+          "title": "Grilled Chicken Salad (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Saturday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.581001"
+        },
+        {
+          "id": "42feec9e-4489-4a2b-83dc-8d241bf01d77",
+          "title": "Grilled Chicken Salad (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Saturday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.581010"
+        }
+      ],
+      "Sunday": [
+        {
+          "id": "94d0d141-10b7-41e9-b5a3-805025677a97",
+          "title": "Vegetarian Pasta (breakfast)",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "day": "Sunday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.581018"
+        },
+        {
+          "id": "2d5efafb-feb1-4800-b97d-59f6439d40c1",
+          "title": "Vegetarian Pasta (lunch)",
+          "start_time": "12:30",
+          "duration_minutes": 30,
+          "day": "Sunday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.581027"
+        },
+        {
+          "id": "3dae0f8b-23bd-43c5-8ce7-52bf923b5870",
+          "title": "Vegetarian Pasta (dinner)",
+          "start_time": "19:00",
+          "duration_minutes": 30,
+          "day": "Sunday",
+          "type": "meal",
+          "created_at": "2025-11-16T14:18:28.581036"
+        }
+      ]
+    },
+    "metadata": {
+      "total_tasks": 0,
+      "total_meals": 21,
+      "budget_total": 81.81,
+      "schedule_events": 21
+    }
+  },
+  "verification": {
+    "is_valid": false,
+    "constraints_satisfied": true,
+    "budget_within_limits": true,
+    "meals_scheduled": true,
+    "tasks_scheduled": false,
+    "validation_trace": [
+      {
+        "check": "budget_limit",
+        "expected": "\u2264 $100.0",
+        "actual": "$81.81",
+        "passed": true
+      },
+      {
+        "check": "meals_scheduled",
+        "expected": "> 0 meals",
+        "actual": "21 meals",
+        "passed": true
+      },
+      {
+        "check": "tasks_scheduled",
+        "expected": "> 0 tasks",
+        "actual": "0 tasks",
+        "passed": false
+      }
+    ],
+    "reproducibility_signature": "6a2252383d3c1a85",
+    "verification_summary": "Plan Verification Summary:\n- Budget: \u2713 ($81.81 / $100.0)\n- Meals: \u2713 (21 meals)\n- Tasks: \u2717 (0 tasks)\n- Overall: INVALID\n- Signature: 6a2252383d3c1a85"
+  },
+  "trace": [
+    {
+      "timestamp": "2025-11-16T14:18:18.377367",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "Orchestrator",
+      "step": "pipeline_started",
+      "data": {
+        "user_text": "Plan my week: vegetarian meals, budget $100, 3 workouts."
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:18.378306",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "IntentAgent",
+      "step": "start",
+      "data": {
+        "input": "Plan my week: vegetarian meals, budget $100, 3 workouts."
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:19.575456",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "IntentAgent",
+      "step": "parsed",
+      "data": {
+        "goals": [
+          "vegetarian meals",
+          "3 workouts"
+        ],
+        "constraints": {
+          "max_budget": "100",
+          "dietary": "vegetarian"
+        },
+        "priorities": [
+          "health",
+          "budget"
+        ],
+        "plan_duration_days": 7,
+        "user_preferences": {}
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:19.577117",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "TaskAgent",
+      "step": "start",
+      "data": {
+        "goals": [
+          "vegetarian meals",
+          "3 workouts"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:19.577658",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "MealAgent",
+      "step": "start",
+      "data": {
+        "goals": [
+          "vegetarian meals",
+          "3 workouts"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:22.856701",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "TaskAgent",
+      "step": "proposed",
+      "data": {
+        "task_count": 0
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.578012",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "MealAgent",
+      "step": "proposed",
+      "data": {
+        "days": 7
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.578998",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "BudgetAgent",
+      "step": "start",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.579581",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "BudgetAgent",
+      "step": "estimated",
+      "data": {
+        "total": 81.81,
+        "within_budget": true
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.580053",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "Orchestrator",
+      "step": "parallel_complete",
+      "data": {
+        "task_count": 0,
+        "meal_days": 7,
+        "budget_total": 81.81
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.580496",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "SchedulerAgent",
+      "step": "start",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.581054",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "SchedulerAgent",
+      "step": "scheduled",
+      "data": {
+        "total_events": 21
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.581329",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "CoordinatorAgent",
+      "step": "start",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.581696",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "CoordinatorAgent",
+      "step": "merged",
+      "data": {
+        "plan_created": true
+      }
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.582024",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "VerifierAgent",
+      "step": "start",
+      "data": {}
+    },
+    {
+      "timestamp": "2025-11-16T14:18:28.582623",
+      "session_id": "ce2a937e-d760-4728-93b1-841dcb357c54",
+      "agent": "VerifierAgent",
+      "step": "verified",
+      "data": {
+        "is_valid": false,
+        "signature": "6a2252383d3c1a85"
+      }
+    }
+  ],
+  "status": "success"
+}

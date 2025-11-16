@@ -1,0 +1,2 @@
+"""Smart Life Planner package."""
+

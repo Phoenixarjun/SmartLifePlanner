@@ -1,0 +1,17 @@
+{"timestamp": "2025-11-16T12:52:37.394298", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "Orchestrator", "step": "pipeline_started", "data": {"user_text": "Plan my week with exercise, healthy meals, \"             \"and grocery shopping. Budget is $100. I'm vegetarian."}}
+{"timestamp": "2025-11-16T12:52:37.395298", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "IntentAgent", "step": "start", "data": {"input": "Plan my week with exercise, healthy meals, \"             \"and grocery shopping. Budget is $100. I'm vegetarian."}}
+{"timestamp": "2025-11-16T12:52:37.396299", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "IntentAgent", "step": "parsed", "data": {"goals": ["exercise", "cooking", "shopping", "budget"], "constraints": {"max_budget": 100.0, "dietary": ["vegetarian"], "plan_days": 7}, "priorities": ["health", "budget"], "plan_duration_days": 7, "user_preferences": {}}}
+{"timestamp": "2025-11-16T12:52:37.397296", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "TaskAgent", "step": "start", "data": {"goals": ["exercise", "cooking", "shopping", "budget"]}}
+{"timestamp": "2025-11-16T12:52:37.398291", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "MealAgent", "step": "start", "data": {"goals": ["exercise", "cooking", "shopping", "budget"]}}
+{"timestamp": "2025-11-16T12:52:37.398291", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "MealAgent", "step": "proposed", "data": {"days": 7}}
+{"timestamp": "2025-11-16T12:52:37.417812", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "TaskAgent", "step": "proposed", "data": {"task_count": 4}}
+{"timestamp": "2025-11-16T12:52:37.418814", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "BudgetAgent", "step": "start", "data": {}}
+{"timestamp": "2025-11-16T12:52:37.418814", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "BudgetAgent", "step": "estimated", "data": {"total": 62.35, "within_budget": true}}
+{"timestamp": "2025-11-16T12:52:37.419513", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "Orchestrator", "step": "parallel_complete", "data": {"task_count": 4, "meal_days": 7, "budget_total": 62.35}}
+{"timestamp": "2025-11-16T12:52:37.419940", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "SchedulerAgent", "step": "start", "data": {}}
+{"timestamp": "2025-11-16T12:52:37.419940", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "SchedulerAgent", "step": "scheduled", "data": {"total_events": 25}}
+{"timestamp": "2025-11-16T12:52:37.420986", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "CoordinatorAgent", "step": "start", "data": {}}
+{"timestamp": "2025-11-16T12:52:37.420986", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "CoordinatorAgent", "step": "merged", "data": {"plan_created": true}}
+{"timestamp": "2025-11-16T12:52:37.420986", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "VerifierAgent", "step": "start", "data": {}}
+{"timestamp": "2025-11-16T12:52:37.420986", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "VerifierAgent", "step": "verified", "data": {"is_valid": true, "signature": "9b1378b2307659ae"}}
+{"timestamp": "2025-11-16T12:52:37.420986", "session_id": "b37cb70a-2273-46b4-9756-7a4f466750ae", "agent": "Orchestrator", "step": "pipeline_completed", "data": {"status": "success", "snapshot": "logs\\b37cb70a-2273-46b4-9756-7a4f466750ae_snapshot.json"}}

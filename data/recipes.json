@@ -1,0 +1,88 @@
+[
+  {
+    "id": "r1",
+    "name": "Veg Curry Bowl",
+    "diet": [
+      "vegetarian"
+    ],
+    "calories": 450,
+    "ingredients": [
+      "vegetables",
+      "rice",
+      "spices"
+    ],
+    "instructions": "Cook rice and curry."
+  },
+  {
+    "id": "r2",
+    "name": "Quinoa Salad",
+    "diet": [
+      "vegan",
+      "vegetarian"
+    ],
+    "calories": 350,
+    "ingredients": [
+      "quinoa",
+      "greens",
+      "tomato",
+      "olive oil"
+    ],
+    "instructions": "Mix and serve."
+  },
+  {
+    "id": "r3",
+    "name": "Oat Porridge",
+    "diet": [
+      "vegetarian"
+    ],
+    "calories": 300,
+    "ingredients": [
+      "oats",
+      "milk",
+      "banana"
+    ],
+    "instructions": "Simmer oats in milk."
+  },
+  {
+    "id": "r4",
+    "name": "Lentil Soup",
+    "diet": [
+      "vegan",
+      "vegetarian"
+    ],
+    "calories": 380,
+    "ingredients": [
+      "lentils",
+      "onion",
+      "garlic",
+      "spices"
+    ],
+    "instructions": "Boil lentils and season."
+  },
+  {
+    "id": "r5",
+    "name": "Grilled Chicken Salad",
+    "diet": [],
+    "calories": 420,
+    "ingredients": [
+      "chicken",
+      "greens",
+      "tomato"
+    ],
+    "instructions": "Grill chicken and mix."
+  },
+  {
+    "id": "r6",
+    "name": "Paneer Stir-Fry",
+    "diet": [
+      "vegetarian"
+    ],
+    "calories": 480,
+    "ingredients": [
+      "paneer",
+      "bell pepper",
+      "soy sauce"
+    ],
+    "instructions": "Stir fry paneer with veggies."
+  }
+]
